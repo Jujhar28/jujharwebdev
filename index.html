@@ -176,11 +176,20 @@
             </section>
 
             <!--===== CONTACT =====-->
-                     <section class="contact section" id="contact">
+            <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
                     <form class="contact__form"  action="https://formsubmit.co/368816272c3408bf1abbfb89753ecd36" method="POST">
+
+                            <!-- HonePot -->
+
+                            <input type="text" name="_honey" style="display:none"/>
+
+                            <!-- Disable Captcha -->
+
+                            <input type="_hidden" name="_captcha" value="false"/>
+
                         <input type="text" placeholder="Name" name="name" class="contact__input">
                         <input type="mail" placeholder="Email" name="email" class="contact__input">
                         <textarea name="" id="" cols="0" rows="10" name="comments, questions" class="contact__input"></textarea>
